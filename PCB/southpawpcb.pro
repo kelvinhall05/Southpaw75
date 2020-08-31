@@ -1,4 +1,4 @@
-update=Fri 03 Jul 2020 02:09:58 PM
+update=Sun 23 Aug 2020 09:28:01 AM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=/home/kelvin/Documents/KiCad/blank.kicad_wks
-LastNetListRead=pcbsouthpaw.net
+LastNetListRead=southpawpcb.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -233,7 +233,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
