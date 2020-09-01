@@ -28,3 +28,11 @@ To purchase PCBs from your vendor of choice, simply upload the gerber zips to th
 ![Image of soldered Pro Micro](Pictures/IMG_20200803_125247.jpg)
 ## 12. Attach standoffs to the bottom of the plate using screws from the other side
 ## 13. Screw on the bottom plate
+# Flashing instructions:
+These instructions will cover flashing the Pro Micro or Elite C on a Linux system and assumes you have set up your QMK environment and avrdude, and that you have basic knowledge of the command line (file paths, mostly).
+## 1. Plug your Pro Micro or Elite C in
+## 2. Open up the [QMK configurator](https://config.qmk.fm/#/southpaw75/LAYOUT) and create your desired layout
+## 3. Download the layout as a .json file
+## 4. Open up a terminal window in the folder where you set up your QMK environment
+## 5. Type ```qmk flash /path/to/layout.json```
+Your keymap will be compiled and flashed automatically. After that, just unplug your keyboard and plug it back in, and you're good to go!
