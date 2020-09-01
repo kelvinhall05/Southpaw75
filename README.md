@@ -4,7 +4,7 @@ The Southpaw75 is a budget 60% with a southpaw numpad. It supports Cherry MX and
 
 ![Image of Southpaw](Pictures/southpaw75.jpg)
 
-To purchase PCBs from your vendor of choice, simply upload the gerber zips to their website and follow the instructions from there.
+If you have any questions or need help, please contact me on Discord: **Volvo B5234T#0733**
 
 # Assembly:
 ## 1. Bend the legs of all your diodes so they look like this:
