@@ -30,11 +30,15 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 ![Image of soldered Pro Micro](Pictures/IMG_20200803_125247.jpg)
 ### 12. Attach standoffs to the bottom of the plate using screws from the other side
 ### 13. Screw on the bottom plate
-# Flashing instructions:
-These instructions will cover flashing the Pro Micro or Elite C on a Linux system and assumes you have set up your QMK environment and avrdude, and that you have basic knowledge of the command line (file paths, mostly). More information and flashing instructions for Windows can be found in the QMK documentation.
+# Flashing instructions for Linux:
 ### 1. Plug your Pro Micro or Elite C in
 ### 2. Open up the [QMK configurator](https://config.qmk.fm/#/southpaw75/LAYOUT) and create your desired layout
-### 3. Download the layout as a .json file
-### 4. Open up a terminal window in the folder where you set up your QMK environment
+### 3. Download the .json file (on the left, next to keymap.json)
+### 4. Open up a command line
 ### 5. Type ```qmk flash /path/to/layout.json``` (obviously replacing the file path with the path to your downloaded layout) and follow any additional instructions
-Your keymap will be compiled and flashed automatically. After that, just unplug your keyboard and plug it back in, and you're good to go!
+# Flashing instructions for Windows:
+### 1. Plug your Pro Micro or Elite C in
+### 2. Open up the [QMK configurator](https://config.qmk.fm/#/southpaw75/LAYOUT) and create your desired layout
+### 3. Click "compile" in the upper right, and once it's done, download the .hex by clicking "firmware"
+### 4. Open up QMK toolbox and load your downloaded .hex
+### 5. Click "flash" and follow any additional instructions
