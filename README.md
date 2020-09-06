@@ -36,7 +36,9 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 ### 3. Download the .json file (on the left, next to keymap.json)
 ### 4. Open up a command line
 ### 5. Type ```qmk flash /path/to/layout.json``` (obviously replacing the file path with the path to your downloaded layout) and follow any additional instructions
+### One thing to note is that you can compile a .hex file on the configurator and flash that with avrdude, however, I prefer the method outlined above.
 # Flashing instructions for Windows:
+### Please keep in mind that I do not run Windows on my own system and cannot 100% verify this flashing procedure will work or if it requires any other configuration. I highly recommend you check the QMK docs if something is not working. I am unable to help with any flashing problems if you run Windows.
 ### 1. Plug your Pro Micro or Elite C in
 ### 2. Open up the [QMK configurator](https://config.qmk.fm/#/southpaw75/LAYOUT) and create your desired layout
 ### 3. Click "compile" in the upper right, and once it's done, download the .hex by clicking "firmware"
