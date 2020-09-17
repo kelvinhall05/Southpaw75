@@ -8,6 +8,8 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 
 ### Disclaimer: You must follow this guide in the order it is written. Assembling stuff in the wrong order (specifically your Pro Micro or Elite C and its headers) will likely result in you having to desolder components and significantly increase the amount of time it takes to assemble. I am not responsible for boards damaged during assembly.
 
+### Please also note that the pictures in this guide were mostly taken after I had already assembled a prototype, and I did not have enough diodes or any switches to fully assemble another board. Please only use the pictures in this guide as a reference for the step they follow and not as the guide itself.
+
 # Assembly:
 ### 1. Bend the legs of all your diodes so they look like this:
 ![Image of diode legs](Pictures/IMG_20200803_122756.jpg)
@@ -18,7 +20,7 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 ### 4. Repeat for all diodes (you will have to solder 78, and you will have several extras)
 ### 5. Solder your reset button to the PCB (use tweezers to hold it down, as the metal will conduct heat from your iron and burn your finger)
 ### Note: If you've lost your reset button, don't worry. Shorting the two pads closest to the edge of the PCB or the two closest to the inside will reset your controller. After all, that's all the button does :)
-### 6. Place your Pro Micro or Elite C onto its pin headers and sit it into the board so the Pro Micro is on the back of the PCB (the side with the Southpaw logo) and tape it down to temporarily hold it in place. This helps align the pin headers properly. **DO NOT SOLDER THE PRO MICRO OR ELITE C TO THE PIN HEADERS YET!**
+### 6. Place your Pro Micro or Elite C onto its pin headers and sit it into the board so the Pro Micro is on the back of the PCB (the side with the Southpaw logo) and tape it down to temporarily hold it in place. This helps align the pin headers properly. It doesn't matter whether you put the shorter pins on the PCB or the longer ones; either way, you will have to snip the longer ones once you've soldered them in. **DO NOT SOLDER THE PRO MICRO OR ELITE C TO THE PIN HEADERS YET!**
 ![Image of seated Pro Micro](Pictures/IMG_20200803_123609.jpg)
 ![Image of taped Pro Micro](Pictures/IMG_20200803_123709.jpg)
 ### 7. Solder in the pin headers from the front side of the PCB. **Do not solder the Pro Micro or Elite C yet, just the headers!**
