@@ -6,11 +6,13 @@ The Southpaw75 is a budget FR4 keyboard designed to make a southpaw-style layout
 
 If you have any questions or need help, please contact me on Discord: **Volvo B5234T#0733**
 
-### Disclaimer: You must follow this guide in the order it is written. Assembling stuff in the wrong order (specifically your Pro Micro or Elite C and its headers) will likely result in you having to desolder components and significantly increase the amount of time it takes to assemble. I am not responsible for boards damaged during assembly.
+### Disclaimer: You must follow this guide in the order it is written. Assembling stuff in the wrong order (specifically your Pro Micro or Elite C and its headers) will likely result in you having to desolder components and significantly increase the amount of time it takes to assemble. I am not responsible for boards damaged during assembly. I highly recommend you read through the entire guide before starting assembly.
 
 ### Please also note that the pictures in this guide were mostly taken after I had already assembled a prototype, and I did not have enough diodes or any switches to fully assemble another board. Please only use the pictures in this guide as a reference for the step they follow and not as the guide itself.
 
 # Assembly:
+### This is what the back of an empty PCB looks like (please note, the GB version has some minor changes):
+![Image of empty PCB](Pictures/IMG_20200803_122501.jpg)
 ### 1. Bend the legs of all your diodes so they look like this:
 ![Image of diode legs](Pictures/IMG_20200803_122756.jpg)
 ### 2. Put the diodes through the PCB so the legs stick out the front side of the board and so the diode is flush with the back, making sure the black line on the diode faces the square pad:
@@ -31,6 +33,8 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 ### 10. Add the rest of your switches and solder them all in
 ### 11. Once you have verified that all your diodes, switches, and Pro Micro or Elite C pin headers are soldered properly, you can now solder your Pro Micro or Elite C onto the pin headers:
 ![Image of soldered Pro Micro](Pictures/IMG_20200803_125247.jpg)
+### Here is what a completed PCB will look like:
+![Image of completed PCB](Pictures/IMG_20200803_125309.jpg)
 ### 12. Attach standoffs to the bottom of the plate using screws from the other side
 ### 13. Screw on the bottom plate
 # Flashing instructions for Linux:
