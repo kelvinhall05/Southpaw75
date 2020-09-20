@@ -19,7 +19,7 @@ If you have any questions or need help, please contact me on Discord: **Volvo B5
 ![Image of diode in PCB](Pictures/IMG_20200803_122934.jpg)
 ### 3. Solder from the back and snip the legs:
 ![Image of soldered diode](Pictures/IMG_20200803_123253.jpg)
-### 4. Repeat for all diodes (you will have to solder 78, and you will have several extras)
+### 4. Repeat for all diodes (you will have to solder 78, and you will have several extras). Please note that diodes 71, 72, and 77 (silkscreened as D71, D72, and D77) are reversed compared to the others.
 ### 5. Solder your reset button to the PCB (use tweezers to hold it down, as the metal will conduct heat from your iron and burn your finger)
 ### Note: If you've lost your reset button, don't worry. Shorting the two pads closest to the edge of the PCB or the two closest to the inside will reset your controller. After all, that's all the button does :)
 ### 6. Place your Pro Micro or Elite C onto its pin headers and sit it into the board so the Pro Micro is on the back of the PCB (the side with the Southpaw logo) and tape it down to temporarily hold it in place. This helps align the pin headers properly. It doesn't matter whether you put the shorter pins on the PCB or the longer ones; either way, you will have to snip the longer ones once you've soldered them in. **DO NOT SOLDER THE PRO MICRO OR ELITE C TO THE PIN HEADERS YET!**
