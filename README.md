@@ -4,7 +4,7 @@ The Southpaw75 is a budget FR4 keyboard designed to make a southpaw-style layout
 
 ![Image of Southpaw](Pictures/southpaw75.jpg)
 
-If you have any questions or need help, please contact me on Discord: **Volvo B5234T#0733**
+If you have any questions or need help, please contact me on Discord **@Volvo B5234T#0733** or by joining the **[FR4Boards Discord](https://discord.com/invite/ny7kSYr)**
 
 ### Disclaimer: You must follow this guide in the order it is written. Assembling stuff in the wrong order (specifically your Pro Micro or Elite C and its headers) will likely result in you having to desolder components and significantly increase the amount of time it takes to assemble. I am not responsible for boards damaged during assembly. I highly recommend you read through the entire guide before starting assembly.
 
